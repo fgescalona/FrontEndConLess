@@ -1,0 +1,65 @@
+@azul      : #22BCE0;
+@grisOscuro: #444;
+
+body
+{
+	background-color: #E8E8E8;
+	color           : @grisOscuro;
+	font-family     : Arial;
+	font-size       : 16px;  
+}
+
+header
+{
+	background-color: @grisOscuro;
+	color           : white;
+	padding         : 0.5em;
+	.logo
+	{
+		border-right: 1px solid @azul;
+		width       : 60px;  
+		img
+		{
+			width   : 52px; 
+		}
+	}
+	.titular
+	{
+		margin          : 0 80px 0 70px; 
+		.titulo
+		{
+			font-size   : 18px;
+			font-weight : normal;
+			margin      : 0;
+			paddoing    : 0; 
+		}
+	}
+
+	.usuario
+	{
+		.avatar
+		{
+			img
+			{
+				border-radius : 50%;  
+				width         : 50px; 
+			}
+		}
+	}
+
+}
+
+nav
+{
+	background-color: @azul;
+}
+
+.left
+{
+	float : left; 
+}
+
+.right
+{
+	float : right; 
+}
